@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboSoccer | Spade</title>
+    <link rel="stylesheet" href="Css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">RoboSoccer</a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li><a href="/Robowars/Index.html" class="robowars">Robowars</a></li>
+                    <li><a href="/Xcellerado/index.html">Xcellerado</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Go Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="main-section">
+        <section class="hero">
+            <div class="container">
+                <div class="left-col">
+                    <h1>Strength along with insensitivity = Excellence</h1>
+                </div>
+    
+                <img src="images/RoboSoccer.jpg" class="hero-img" alt="Illustration">
+            </div>
+        </section>
+    
+        <section class="features-section">
+            <div class="container">
+                <h4 class="rs">What is RoboSoccer?</h4>
+                <ul class="features-list">
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+            </div>
+        </section>
+        <div class="container-gallery">
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                    <img src="images/xp.jpg" alt="Gallery image 1" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--2">
+                    <img src="images/xpp.jpg" alt="Gallery image 2" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--3">
+                    <img src="images/p.jpg" alt="Gallery image 3" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--4">
+                    <img src="images/DSC00318.JPG" alt="Gallery image 4" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--5">
+                    <img src="images/DSC00326.JPG" alt="Gallery image 5" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--6">
+                    <img src="images/DSC_0566.JPG" alt="Gallery image 6" class="gallery__img">
+                </figure>
+              </div>
+          </div>
+    </div>
+    <div class="end-line">
+        <a href="#">Back to home</a>
+    </div>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+</body>
+</html>
