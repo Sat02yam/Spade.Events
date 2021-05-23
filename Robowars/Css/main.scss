@@ -3,7 +3,7 @@
     --primary-color: #007AF3;
 }
 body {
-    background-image: url("/Xcellerado/images/bg.jpg");
+    background-image: url("images/bg.jpg");
     margin: 0;
     font-family: 'Poppins';
 }
@@ -307,7 +307,7 @@ ul.features-list {
         text-align: left;
 
         .left-col {
-            margin: 3em 3em 0 5em;
+            margin: 2em 3em 0 5em;
 
             h1 {
                 font-size: 3em;
